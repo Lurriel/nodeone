@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "handlebars": "^4.0.6",
+    "hbs": "^4.0.1",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.4",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0",
+    "passport-oauth2": "^1.4.0",
+    "passport-oauth2-middleware": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test/index.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
